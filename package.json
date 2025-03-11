@@ -1,0 +1,27 @@
+{
+  "name": "chet",
+  "version": "1.0.0",
+  "description": "chet with yoour buddies",
+  "keywords": [
+    "Chet"
+  ],
+  "homepage": "https://github.com/HappyySunshine/Chet#readme",
+  "bugs": {
+    "url": "https://github.com/HappyySunshine/Chet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HappyySunshine/Chet.git"
+  },
+  "license": "ISC",
+  "author": "Happy Sunshine",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
