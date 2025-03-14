@@ -6,3 +6,22 @@
     height: 100vh; /* Makes the container take up the full height of the viewport */
     margin: 0; /* Removes default margin */
 }
+
+.field-widget{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    place-items: center;
+}
+.field-widget-text{
+    height: 15px;
+}
+
+.field-widget-input{
+    height: 15px;
+}
+
+body {
+  background: linear-gradient(to bottom, white, blue);
+}
