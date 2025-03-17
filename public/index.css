@@ -12,7 +12,9 @@
     flex-direction: row;
     justify-content: center;
     justify-items: center;
+    
     place-items: center;
+    
 }
 .field-widget-text{
     height: 15px;
@@ -25,3 +27,44 @@
 body {
   background: linear-gradient(to bottom, white, blue);
 }
+
+.btn {
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 10vw;
+    background: none;
+    padding: 0;
+    border: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .btnSvg {
+    display: inline-block;
+    height: 1em;
+  }
+  
+  .btn .btnSvgPath {
+    transition: 0.3s;
+    border: none;
+    stroke-width: 75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  
+  .btn:hover .btnSvgPath {
+    d: path('M50,77L23.3,91l5.1-29.7l-21.6-21L36.7,36L50,9l13.3,27l29.8,4.3l-21.6,21L76.7,91L50,77z');
+    stroke-width: 5;
+    color: gold;
+  }
+
+  .textSvg{
+    
+  }
+
+  #Y{
+
+
+  }
+
+
